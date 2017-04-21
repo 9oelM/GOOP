@@ -4,6 +4,7 @@
   * Logo
   * Theme: like elegant, sporty, lively, friendly...
   * Fonts: connected to the theme
+  * Brand image: also connected to the theme.
 
 **2. Website design**
   * Typical approach(Minimalist), (Ex. https://www.awwwards.com/sites/chaptr-studio / http://flattrendz.com/flat-design-gallery/theissland/): hero image/video and simplicity.
@@ -20,6 +21,7 @@
   * I know AWS / Github
   * SEO? - Maybe you should care more.
 
-**5. Additional recommendation**
+**5. Additional recommendation / question**
   * API.AI: assistant?
   * Motion.ai: email chatbot?
+  * Putting your prototype on the website?
