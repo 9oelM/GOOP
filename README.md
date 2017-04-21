@@ -1,15 +1,15 @@
 # GOOP: General outline
 **1. Overall design identity**
-  * Color?
-  * Logo
+  * Color?:
+  * Logo:
   * Theme: like elegant, sporty, lively, friendly...
   * Fonts: connected to the theme
-  * Brand image: also connected to the theme.
+  * Brand image: also connected to the theme. casual friendly... 
 
 **2. Website design**
   * Typical approach(Minimalist), (Ex. https://www.awwwards.com/sites/chaptr-studio / http://flattrendz.com/flat-design-gallery/theissland/): hero image/video and simplicity.
-  * Flat design (Ex. http://playgroundinc.com): may be friendly and simple.
-  * Conversational website (Ex. https://azumbrunnen.me/): you wanna introduce your application, so this may work as well.
+  * **Flat design** (Ex. http://playgroundinc.com): may be friendly and simple.
+  * **Conversational website** (Ex. https://azumbrunnen.me/): you wanna introduce your application, so this may work as well.
   * Retro design (rare): most likely to need some custom illustrations
 
 **3. Mobile device optimization**
