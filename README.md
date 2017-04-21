@@ -2,7 +2,7 @@
 **1. Overall design identity**
   * Color?
   * Logo
-  * Theme: like elegance, sporty, lively, friendly...
+  * Theme: like elegant, sporty, lively, friendly...
   * Fonts: connected to the theme
 
 **2. Website design**
@@ -17,7 +17,7 @@
 **4. Website deployment**
   * Domain?
   * Free tier server?
-  * I know AWS / Github 
+  * I know AWS / Github
   * SEO? - Maybe you should care more.
 
 **5. Additional recommendation**
