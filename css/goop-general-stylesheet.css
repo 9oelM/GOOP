@@ -120,3 +120,21 @@ div.content{
     text-decoration:none;
     line-height: 100%;
 }
+
+@media only screen and (max-width : 480px) {
+    .go-button-left, .go-button-right{
+        padding:10px 40px;
+    }
+    img.goop-logo{
+        width: 55px;
+        height: 23px;
+    }
+    div.content{
+        font-size: 1em;
+        line-height: 30%;
+        margin-top: 50%;
+        padding-top: 0;
+    }
+
+
+}
