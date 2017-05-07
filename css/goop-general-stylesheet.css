@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body, html{
+body, html, section{
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,13 @@ body, html{
 .text-yellow{
     color: #FDCE00;
 }
-
+img.goop-logo{
+    width: 78px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
 div.rectangle-bg{
     width:50vw;
     height: 100vh;
@@ -68,7 +74,7 @@ h2{
 div.content{
     font-size: 7vh;
     line-height: 30%;
-    margin-top: 20%;
+    margin-top: 35%;
     padding-top: 0;
 }
 
