@@ -136,20 +136,20 @@ div.re-you{
 @media only screen and (max-width : 480px) {
     .go-button-left, .go-button-right{
         padding:10px 40px;
-        font-size: 1em;
+        font-size: 0.7em;
     }
     img.goop-logo{
         width: 55px;
         height: 23px;
     }
     div.content{
-        font-size: 2em;
+        font-size: 1.5em;
         line-height: 30%;
         padding-top: 0;
     }
     div.who-are-you{
         top: 50px;
-        font-size: 3em;
+        font-size: 2.2em;
     }
 
 }
