@@ -72,7 +72,7 @@ h2{
 }
 
 div.content{
-    font-size: 7vh;
+    font-size: 4vw;
     line-height: 30%;
     margin-top: 35%;
     padding-top: 0;
@@ -87,7 +87,7 @@ div.content{
     border:none;
     display:inline-block;
     cursor:pointer;
-    font-size: 5vh;
+    font-size: 3vw;
     font-weight:700;
     margin-top: 20px;
     padding:16px 85px;
@@ -113,7 +113,7 @@ div.content{
     border:none;
     display:inline-block;
     cursor:pointer;
-    font-size:5vh;
+    font-size:3vw;
     font-weight:700;
     margin-top: 20px;
     padding:16px 85px;
@@ -124,17 +124,16 @@ div.content{
 @media only screen and (max-width : 480px) {
     .go-button-left, .go-button-right{
         padding:10px 40px;
+        font-size: 2em;
     }
     img.goop-logo{
         width: 55px;
         height: 23px;
     }
     div.content{
-        font-size: 1em;
+        font-size: 2em;
         line-height: 30%;
         margin-top: 50%;
         padding-top: 0;
     }
-
-
 }
