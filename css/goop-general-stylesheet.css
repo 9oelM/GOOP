@@ -74,7 +74,7 @@ h2{
 div.content{
     font-size: 4vw;
     line-height: 30%;
-    margin-top: 35%;
+    margin: auto 0;
     padding-top: 0;
 }
 
@@ -120,6 +120,18 @@ div.content{
     text-decoration:none;
     line-height: 100%;
 }
+div.who-are-you{
+    position: absolute;
+    top: -10%;
+    font-size: 8vw;
+    font-weight: bold;
+}
+div.who-a{
+    right: 50%;
+}
+div.re-you{
+    left: 50%;
+}
 
 @media only screen and (max-width : 480px) {
     .go-button-left, .go-button-right{
@@ -133,7 +145,11 @@ div.content{
     div.content{
         font-size: 2em;
         line-height: 30%;
-        margin-top: 50%;
         padding-top: 0;
     }
+    div.who-are-you{
+        top: 50px;
+        font-size: 3em;
+    }
+
 }
