@@ -1,0 +1,112 @@
+*, *:before, *:after{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-goop-orange{
+    background-color: #FF723F;
+}
+
+.text-goop-orange{
+    color: #FF723F;
+}
+
+.bg-white{
+    background-color: #FFF;
+}
+
+.text-white{
+    color: #FFF;
+}
+
+.bg-yellow{
+    background-color: #FDCE00;
+}
+
+.text-yellow{
+    color: #FDCE00;
+}
+
+div.rectangle-bg{
+    width:50vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+div.background{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+div.main{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+h2{
+    display: inline;
+}
+.left, .right{
+    width:50vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div.content{
+    font-size: 7vh;
+    line-height: 50%;
+}
+
+.go-button-left {
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    background-color: #FF723F;
+    color: #ffffff;
+    border-radius:18px;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 5vh;
+    font-weight:700;
+    margin-top: 20px;
+    padding:16px 76px;
+    text-decoration:none;
+
+
+}
+.go-button-left:hover {
+    background-color: #ffffff;
+    color:#FF723F;
+}
+.go-button-left:active {
+    position:relative;
+    top:1px;
+}
+.go-button-right{
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    background-color: #FFF;
+    color: #FF723F;
+    border-radius:18px;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    font-size:5vh;
+    font-weight:700;
+    margin-top: 20px;
+    padding:16px 76px;
+    text-decoration:none;
+}
