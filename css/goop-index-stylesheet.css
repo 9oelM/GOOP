@@ -39,7 +39,7 @@ h2{
 }
 
 div.content{
-    font-size: 4vw;
+    font-size: 5vmin;
     line-height: 30%;
     margin: auto 0;
     padding-top: 10%;
@@ -54,7 +54,7 @@ div.content{
     border:none;
     display:inline-block;
     cursor:pointer;
-    font-size: 3vw;
+    font-size: 4vmin;
     font-weight:700;
     margin-top: 20px;
     padding:16px 85px;
@@ -80,7 +80,7 @@ div.content{
     border:none;
     display:inline-block;
     cursor:pointer;
-    font-size:3vw;
+    font-size:4vmin;
     font-weight:700;
     margin-top: 20px;
     padding:16px 85px;
@@ -89,8 +89,7 @@ div.content{
 }
 div.who-are-you{
     position: absolute;
-    top: -10%;
-    font-size: 8vw;
+    font-size: 9vmin;
     font-weight: bold;
 }
 div.who-a{
