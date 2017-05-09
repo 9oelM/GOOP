@@ -18,7 +18,7 @@ header.view-1 {
     text-align: center;
     margin: 4vmin 0 0 0; }
 
-section.view-2 {
+section.view-template, section.view-2, section.view-3, section.view-4 {
   min-height: 80vh;
   width: 100vw;
   display: flex;
@@ -26,19 +26,28 @@ section.view-2 {
   align-content: center;
   margin: 0;
   padding: 0; }
-  section.view-2 div.what-bothers {
+
+section.view-2 div.what-bothers {
+  text-align: center;
+  width: 60%;
+  align-self: center; }
+section.view-2 p.pain-point-msg {
+  font-size: 3em;
+  margin: 2em 0 0 0; }
+section.view-2 figure.pain-point-illustration img {
+  width: 50%;
+  height: 50%;
+  margin: 2em 0 2em 0; }
+section.view-2 figure.pain-point-illustration figcaption.pain-point-explained {
+  margin: 0 0 2em 0;
+  font-size: 2.5em; }
+
+section.view-3 {
+  background-color: #FDCE00;
+  font-size: 2.5em; }
+  section.view-3 .well-good-news {
     text-align: center;
     width: 60%;
     align-self: center; }
-  section.view-2 p.pain-point-msg {
-    font-size: 3em;
-    margin: 2em 0 0 0; }
-  section.view-2 figure.pain-point-illustration img {
-    width: 50%;
-    height: 50%;
-    margin: 2em 0 2em 0; }
-  section.view-2 figure.pain-point-illustration figcaption.pain-point-explained {
-    margin: 0 0 2em 0;
-    font-size: 2.5em; }
 
 /*# sourceMappingURL=goop-food-stylesheet.css.map */
