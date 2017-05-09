@@ -1,0 +1,36 @@
+@import 'definitions.scss';
+
+*, *:before, *:after{
+    font-family: $main-font;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body, html, section{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-goop-orange{
+    background-color: $goop-orange;
+}
+
+.text-goop-orange{
+    color: $goop-orange;
+}
+
+.bg-white{
+    background-color: $white;
+}
+
+.text-white{
+    color: $white;
+}
+
+.bg-yellow{
+    background-color: $yellow;
+}
+
+.text-yellow{
+    color: $yellow;
+}

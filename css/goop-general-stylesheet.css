@@ -1,33 +1,28 @@
-*, *:before, *:after{
-    font-family: 'Quicksand', sans-serif;
-    box-sizing: border-box;
-}
+*, *:before, *:after {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/ }
 
-body, html, section{
-    margin: 0;
-    padding: 0;
-}
+body, html, section {
+  margin: 0;
+  padding: 0; }
 
-.bg-goop-orange{
-    background-color: #FF723F;
-}
+.bg-goop-orange {
+  background-color: #FF723F; }
 
-.text-goop-orange{
-    color: #FF723F;
-}
+.text-goop-orange {
+  color: #FF723F; }
 
-.bg-white{
-    background-color: #FFF;
-}
+.bg-white {
+  background-color: #FFF; }
 
-.text-white{
-    color: #FFF;
-}
+.text-white {
+  color: #FFF; }
 
-.bg-yellow{
-    background-color: #FDCE00;
-}
+.bg-yellow {
+  background-color: #FDCE00; }
 
-.text-yellow{
-    color: #FDCE00;
-}
+.text-yellow {
+  color: #FDCE00; }
+
+/*# sourceMappingURL=../scss/test.css.map */

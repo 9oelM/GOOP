@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,oBAAoB;EAChB,WAAW,ECHH,uBAAuB;EDI/B,UAAU,EAAE,UAAU;EACtB,4BAA4B;;AAGhC,mBAAmB;EACf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGd,eAAe;EACX,gBAAgB,ECbN,OAAO;;ADgBrB,iBAAiB;EACb,KAAK,ECjBK,OAAO;;ADoBrB,SAAS;EACL,gBAAgB,ECpBZ,IAAI;;ADuBZ,WAAW;EACP,KAAK,ECxBD,IAAI;;AD2BZ,UAAU;EACN,gBAAgB,EC3BX,OAAO;;AD8BhB,YAAY;EACR,KAAK,EC/BA,OAAO",
+"sources": ["goop-general-stylesheet.scss","definitions.scss"],
+"names": [],
+"file": "test.css"
+}

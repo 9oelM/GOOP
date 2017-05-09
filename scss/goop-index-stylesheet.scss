@@ -1,0 +1,131 @@
+@import 'definitions.scss';
+
+img.goop-logo{
+    width: 78px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+div.rectangle-bg{
+    width:50vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+div.background{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+div.main{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+h2{
+    display: inline;
+}
+.left, .right{
+    width:50vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div.content{
+    font-size: 5vmin;
+    line-height: 30%;
+    margin: auto 0;
+    padding-top: 10%;
+}
+
+.go-button-left {
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    background-color: $goop-orange;
+    color: $white;
+    border-radius:18px;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 4vmin;
+    font-weight:700;
+    margin-top: 20px;
+    padding:16px 85px;
+    text-decoration:none;
+    line-height: 100%;
+}
+/*
+.go-button-left:hover {
+    background-color: #ffffff;
+    color:#FF723F;
+}
+.go-button-left:active {
+    position:relative;
+    top:1px;
+}
+*/
+.go-button-right{
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    background-color: $white;
+    color: $goop-orange;
+    border-radius:18px;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    font-size:4vmin;
+    font-weight:700;
+    margin-top: 20px;
+    padding:16px 85px;
+    text-decoration:none;
+    line-height: 100%;
+}
+div.who-are-you{
+    position: absolute;
+    margin-top: 5%;
+    font-size: 9vmin;
+    font-weight: bold;
+}
+div.who-a{
+    right: 50%;
+}
+div.re-you{
+    left: 50%;
+}
+
+/* Portrait tablets */
+@media (max-width:641px) {
+    div.who-are-you{
+        top: 100px;
+    }
+}
+/* Portrait phones */
+@media only screen and (max-width: 480px) {
+    .go-button-left, .go-button-right{
+        padding:10px 40px;
+        /*font-size: 0.7em;*/
+    }
+    img.goop-logo{
+        width: 55px;
+        height: 23px;
+    }
+    div.content{
+        /*font-size: 1.5em;*/
+        line-height: 30%;
+        padding-top: 0;
+    }
+    div.who-are-you{
+        top: 50px;
+        /*font-size: 2.2em;*/
+    }
+
+}
