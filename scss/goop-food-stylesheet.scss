@@ -1,38 +1,61 @@
 @import 'definitions.scss';
 
-header.view-1{
-    height: 80vh;
-    width: 100vw;
-    margin: 0;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
+header.view-1 {
+  height: 80vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 
-img.goop-logo {
+  div.center-wrapper {
+    align-self: center;
+    justify-content: center;
+  }
+
+  img.goop-logo {
     width: 455px;
     height: 191px;
     margin: 0 auto 0 auto;
-}
+  }
 
-h2.goop-in-one-phrase{
+  h2.goop-in-one-phrase {
     font-weight: 400;
     font-size: 2em;
     text-align: center;
     margin: 4vmin 0 0 0;
+  }
 }
 
-div.center-wrapper{
+section.view-2 {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  div.what-bothers {
+    text-align: center;
+    width: 60%;
+
     align-self: center;
-    justify-content: center;
+  }
+  p.pain-point-msg {
+    font-size: 3em;
+
+    margin: 0;
+  }
+
+  figure.pain-point-illustration {
+    img {
+      width: 50%;
+      height: 50%;
+      margin: 2em 0 2em 0;
+    }
+    figcaption.pain-point-explained {
+      font-size: 2.5em;
+    }
+  }
+
 }
 
-section.view-2{
-    height: 80vh;
-    width:100vw;
-    background-color: $goop-orange;
-}
-
-div.what-bothers{
-
-}
