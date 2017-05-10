@@ -17,8 +17,8 @@ header.view-1 {
     flex-direction: column;
     width: 70%; }
   header.view-1 img.goop-logo {
-    width: 455px;
-    height: 191px;
+    width: 30vmax;
+    height: 12.53vmax;
     margin: 0 auto 0 auto;
     justify-self: center;
     align-self: center; }
