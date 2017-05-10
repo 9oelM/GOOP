@@ -1,3 +1,8 @@
+footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: #FF723F; }
+
 header.view-1 {
   height: 80vh;
   width: 100vw;
@@ -47,7 +52,7 @@ section.view-2 div.what-bothers, section.view-2 div.what-bothers div.point-wrapp
   justify-content: center; }
 
 section.view-2 div.what-bothers {
-  text-align: center;
+  text-align: left;
   width: 70%;
   align-self: center; }
   section.view-2 div.what-bothers div.point-wrapper {
@@ -75,15 +80,18 @@ section.view-3 {
   background-color: #FDCE00;
   font-size: 3.5vmin; }
   section.view-3 div.well-good-news {
-    width: 70%; }
+    width: 70%;
+    display: flex;
+    justify-content: space-around; }
     section.view-3 div.well-good-news figure.well-good-news-illustration {
-      margin: auto 3.5vmin auto 0; }
+      margin: auto 0 auto 0; }
       section.view-3 div.well-good-news figure.well-good-news-illustration img {
         height: 30vh;
         width: 30vh;
-        margin: auto 0 auto 0; }
+        margin: auto 4vmin auto 0; }
     section.view-3 div.well-good-news div.well-good-news-point-explained {
-      text-align: center;
+      margin-left: 4vmin;
+      text-align: left;
       width: 70%;
       align-self: center; }
 
@@ -129,7 +137,8 @@ section.view-5 {
       section.view-5 div.goop-food-points figure figcaption.topic {
         font-size: 3.5vmin; }
       section.view-5 div.goop-food-points figure figcaption.explained {
-        font-size: 2.5vmin; }
+        font-size: 2.5vmin;
+        text-align: left; }
 
 /* Portrait tablets */
 /* Portrait phones */

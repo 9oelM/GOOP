@@ -102,6 +102,11 @@ div.re-you{
     left: 50%;
 }
 
+.footer{
+    position: absolute;
+    margin-top: 100vh;
+}
+
 /* Portrait tablets */
 @media (max-width:641px) {
     div.who-are-you{
