@@ -7,27 +7,30 @@ header.view-1 {
   display: flex;
   align-content: center;
   justify-content: center;
-
-  div.center-wrapper {
+  figure.center-wrapper {
     align-self: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
   }
-
   img.goop-logo {
     width: 455px;
     height: 191px;
     margin: 0 auto 0 auto;
+    justify-self: center;
+    align-self: center;
   }
 
-  h2.goop-in-one-phrase {
+  figcaption.goop-in-one-phrase {
     font-weight: 400;
-    font-size: 2em;
+    font-size: 3.5vmin;
     text-align: center;
     margin: 4vmin 0 0 0;
   }
 }
 
-section.view-template {
+section%view-template {
   min-height: 80vh;
   width: 100vw;
   display: flex;
@@ -37,51 +40,153 @@ section.view-template {
   padding: 0;
 }
 
-section.view-2{
-  @extend section.view-template;
+section%view-template-small {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+div%display-flex-and-center-elements-template {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+section.view-2 {
+  @extend section%view-template-small;
 
   div.what-bothers {
     text-align: center;
-    width: 60%;
+    width: 70%;
     align-self: center;
-  }
-  p.pain-point-msg {
-    font-size: 3em;
-    margin: 2em 0 0 0;
-  }
+    @extend div%display-flex-and-center-elements-template;
 
-  figure.pain-point-illustration {
-    img {
-      width: 50%;
-      height: 50%;
-      margin: 2em 0 2em 0;
+    div.point-wrapper {
+      margin-right: 4vmin;
+      height: inherit;
+      @extend div%display-flex-and-center-elements-template;
+      flex-direction: column;
+
+      p.pain-point-msg {
+        display: block;
+        font-size: 3.5vmin;
+        margin: auto 0 auto 0;
+      }
+      p.pain-point-explained-desktop {
+        display: block;
+        margin: 0 0 auto 0;
+        font-size: 3.5vmin;
+      }
     }
-    figcaption.pain-point-explained {
-      margin: 0 0 2em 0;
-      font-size: 2.5em;
+    figure.pain-point-illustration {
+      img {
+        height: 30vh;
+        width: 30vh;
+        margin: 0 0 0 0;
+      }
+    }
+    p.pain-point-explained-phone {
+      margin: 0 0 3.5vmin 0;
+      font-size: 3.5vmin;
+      display: none;
     }
   }
 }
 
-section.view-3{
-  @extend section.view-template;
+section.view-3 {
+  @extend section%view-template-small;
   background-color: $yellow;
-  font-size: 2.5em;
-  .well-good-news{
-    text-align: center;
-    width: 60%;
-    align-self: center;
+  font-size: 3.5vmin;
+  div.well-good-news {
+    @extend div%display-flex-and-center-elements-template;
+    width: 70%;
+
+    figure.well-good-news-illustration {
+      margin: auto 3.5vmin auto 0;
+      img{
+        height: 30vh;
+        width: 30vh;
+        margin: auto 0 auto 0;
+      }
+    }
+    div.well-good-news-point-explained {
+      text-align: center;
+      width: 70%;
+      align-self: center;
+    }
   }
 }
 
-section.view-4{
-  @extend section.view-template;
+section.view-4 {
+  @extend section%view-template;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  h2.we-promise-you {
+    font-size: 4vmin;
+  }
+  div.we-promise-points {
+    @extend div%display-flex-and-center-elements-template;
+    font-size: 3.5vmin;
+    figure {
+      width: 20%;
+    }
+  }
+  h2.what-are-you-waiting-for {
+    font-size: 3.5vmin;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+    span {
+      display: block;
+    }
+  }
+}
+
+section.view-5{
+  @extend section%view-template;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+
+  h2.explain-goop-food{
+    font-size: 4vmin;
+    text-align: center;
+  }
+
+  div.goop-food-points{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 70%;
+    font-size: 3.5vmin;
+    text-align: center;
+    figure {
+      width: calc(70%/3);
+      figcaption.topic{
+        font-size: 3.5vmin;
+      }
+      figcaption.explained{
+        font-size: 2.5vmin;
+      }
+    }
+  }
 }
 
 /* Portrait tablets */
 @media (max-width: 641px) {
 
 }
+
 /* Portrait phones */
 @media only screen and (max-width: 480px) {
 
