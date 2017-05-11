@@ -1,3 +1,8 @@
+footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: #FF723F; }
+
 *, *:before, *:after {
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
@@ -13,6 +18,9 @@ body, html, section {
 .text-goop-orange {
   color: #FF723F; }
 
+.bg-goop-orange-sub {
+  background: #ff9f7c; }
+
 .bg-white {
   background-color: #FFF; }
 
@@ -25,4 +33,4 @@ body, html, section {
 .text-yellow {
   color: #FDCE00; }
 
-/*# sourceMappingURL=../scss/test.css.map */
+/*# sourceMappingURL=goop-general-stylesheet.css.map */

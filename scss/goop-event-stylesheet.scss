@@ -1,5 +1,78 @@
 @import 'definitions.scss';
 
+section.view-1 {
+  @extend section%view-template;
+
+  div.hosting-an-event {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    h2 {
+      font-size: 3.5vmin;
+      text-align: center;
+    }
+    p {
+      font-size: 3vmin;
+      text-align: left;
+      margin: 0.5vmin;
+    }
+  }
+}
+
+section {
+  h2 {
+    font-size: 3.5vmin;
+    font-weight: bold;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw / 2);
+    img{
+      height: 30vh;
+      width: 30vh;
+      align-self: center;
+    }
+    figcaption:first-child {
+      font-weight: bold;
+      font-size: 3.5vmin;
+      margin: 0 0 3.5vmin 0;
+    }
+    figcaption.explain-point {
+      text-align: left;
+      width: 50%;
+      font-size: 2.5vmin;
+      align-self: center;
+    }
+  }
+
+}
+
+section.view-2 {
+  @extend section%view-template;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  text-align: center;
+}
+
+section.view-3 {
+  @extend section%view-template-small;
+  height: 55vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  text-align: center;
+  figure {
+    align-self: center;
+  }
+}
 
 /* Portrait tablets */
 @media (max-width: 641px) {

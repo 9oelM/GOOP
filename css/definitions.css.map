@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AA8BA,MAAM;EACJ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAhCJ,OAAO",
+"sources": ["../scss/definitions.scss"],
+"names": [],
+"file": "definitions.css"
+}

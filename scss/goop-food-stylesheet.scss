@@ -30,31 +30,7 @@ header.view-1 {
   }
 }
 
-section%view-template {
-  min-height: 80vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0;
-}
 
-section%view-template-small {
-  height: 40vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-div%display-flex-and-center-elements-template {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
 
 section.view-2 {
   @extend section%view-template-small;
@@ -99,7 +75,6 @@ section.view-2 {
 
 section.view-3 {
   @extend section%view-template-small;
-  background-color: $yellow;
   font-size: 3.5vmin;
   div.well-good-news {
     @extend div%display-flex-and-center-elements-template;
@@ -136,14 +111,15 @@ section.view-4 {
   div.we-promise-points {
     @extend div%display-flex-and-center-elements-template;
     font-size: 3.5vmin;
+    font-weight: bold;
     figure {
       width: 20%;
     }
   }
   h2.what-are-you-waiting-for {
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
     font-weight: 400;
-    width: 70%;
+    width: 50%;
     text-align: center;
     align-self: center;
     span {
@@ -163,6 +139,7 @@ section.view-5{
   h2.explain-goop-food{
     font-size: 4vmin;
     text-align: center;
+    font-weight: 400;
   }
 
   div.goop-food-points{
@@ -177,13 +154,20 @@ section.view-5{
       width: calc(70%/3);
       figcaption.topic{
         font-size: 3.5vmin;
+        font-weight: bold;
+        margin: 2.5vmin 0 2.5vmin 0;
       }
       figcaption.explained{
         font-size: 2.5vmin;
         text-align: left;
+        margin: 0 0 2.5vmin 0;
       }
     }
   }
+}
+div figure img{
+  width: 30vh;
+  height: 30vh;
 }
 
 /* Portrait tablets */
