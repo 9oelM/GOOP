@@ -9,6 +9,11 @@ section.view-1 {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    img{
+      width: 70vmin;
+      height: 40vmin;
+      align-self: center;
+    }
     h2 {
       font-size: 3.5vmin;
       text-align: center;

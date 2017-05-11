@@ -21,7 +21,6 @@ header.view-1 {
     justify-self: center;
     align-self: center;
   }
-
   figcaption.goop-in-one-phrase {
     font-weight: 400;
     font-size: 3.5vmin;
@@ -29,8 +28,6 @@ header.view-1 {
     margin: 4vmin 0 0 0;
   }
 }
-
-
 
 section.view-2 {
   @extend section%view-template-small;

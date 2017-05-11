@@ -27,6 +27,10 @@ section.view-1 div.hosting-an-event {
   flex-direction: column;
   justify-content: center;
   align-content: center; }
+  section.view-1 div.hosting-an-event img {
+    width: 70vmin;
+    height: 40vmin;
+    align-self: center; }
   section.view-1 div.hosting-an-event h2 {
     font-size: 3.5vmin;
     text-align: center; }
