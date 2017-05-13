@@ -103,10 +103,10 @@ section.view-4 {
   justify-content: space-around;
   text-align: center; }
   section.view-4 h2.we-promise-you {
-    font-size: 4vmin; }
+    font-size: 4vmin;
+    font-weight: 400; }
   section.view-4 div.we-promise-points {
-    font-size: 3.5vmin;
-    font-weight: bold; }
+    font-size: 3.5vmin; }
     section.view-4 div.we-promise-points figure {
       width: 20%; }
   section.view-4 h2.what-are-you-waiting-for {
@@ -142,7 +142,7 @@ section.view-5 {
         font-size: 3.5vmin;
         font-weight: bold;
         margin: 2.5vmin 0 2.5vmin 0;
-        height: 12vmin; }
+        height: auto; }
       section.view-5 div.goop-food-points figure figcaption.explained {
         font-size: 2.5vmin;
         text-align: left;
@@ -157,8 +157,11 @@ div figure img {
   .goop-in-one-phrase {
     font-size: 4.5vmin !important; }
 
-  section.view-2, section.view-3 {
+  section.view-2 {
     height: 75vh; }
+
+  section.view-3 {
+    height: 90vh; }
 
   .pain-point-explained-phone {
     margin: 0 0 3.5vmin 0;
@@ -193,6 +196,8 @@ div figure img {
     font-size: 4.5vmin !important;
     margin: auto !important; }
 
+  section.view-3 .well-good-news {
+    padding: 4.5vmin 0 !important; }
   section.view-3 figure {
     width: 30vh;
     height: 30vh;
@@ -200,30 +205,60 @@ div figure img {
   section.view-3 .well-good-news-point-explained {
     width: 90% !important;
     height: auto !important;
-    margin: 0 auto auto auto !important;
+    margin: auto auto auto auto !important;
     font-size: 4.5vmin !important; }
     section.view-3 .well-good-news-point-explained p {
       margin: 0; }
     section.view-3 .well-good-news-point-explained p:first-child {
-      margin-bottom: 4.5vmin; }
+      margin-bottom: 4.5vmin !important; }
   section.view-3 #fbmsg {
     margin: auto auto 0 auto;
     height: 30vh;
     width: 30vh; }
 
   section.view-4 {
-    height: 175vh; }
+    min-height: 165vh;
+    display: inherit; }
+    section.view-4 h2 {
+      width: auto !important;
+      font-size: 4.5vmin !important;
+      margin: 0 auto;
+      padding: 0 auto !important; }
+    section.view-4 h2:first-child {
+      padding: 4.5vmin 0 0 0; }
+    section.view-4 .what-are-you-waiting-for {
+      text-align: left !important;
+      padding: 9vmin 4.5vmin 4.5vmin 4.5vmin; }
+      section.view-4 .what-are-you-waiting-for span {
+        text-align: center;
+        padding-bottom: 4.5vmin; }
     section.view-4 img {
       align-self: center;
       justify-self: center; }
+    section.view-4 figure {
+      width: auto !important;
+      font-size: 4.5vmin; }
+      section.view-4 figure figcaption {
+        width: auto !important; }
 
   section.view-5 {
-    height: 300vh; }
+    display: inherit;
+    min-height: 275vh; }
+    section.view-5 .explain-goop-food {
+      font-size: 4.5vmin !important; }
     section.view-5 img {
       align-self: center;
       justify-self: center; }
+    section.view-5 figure {
+      width: auto !important; }
+      section.view-5 figure figcaption {
+        font-size: 4.5vmin !important;
+        width: auto !important; }
     section.view-5 .goop-food-points {
-      width: 80%; } }
+      margin: auto;
+      width: 80%;
+      display: flex;
+      flex-direction: column; } }
 /* Portrait phones */
 
 /*# sourceMappingURL=goop-food-stylesheet.css.map */
