@@ -120,12 +120,21 @@ section.view-4 {
 /* Portrait tablets */
 @media (max-width: 641px) {
   section{
+    h2{
+      font-size: 4.5vmin !important;
+    }
     div{
       h2{
         font-size: 4.5vmin !important;
       }
-      figcaption{
+      p{
+        font-size: 3.5vmin !important;
+      }
+      figcaption.topic{
         font-size: 4.5vmin !important;
+      }
+      figcaption.explain-point{
+        font-size: 3.5vmin !important;
       }
     }
 
@@ -133,6 +142,7 @@ section.view-4 {
 
   section.view-1{
     flex-direction: column;
+    font-size: 4.5vmin !important;
     div{
       margin: 4.5vmin 0;
     }

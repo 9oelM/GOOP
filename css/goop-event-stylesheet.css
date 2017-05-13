@@ -123,13 +123,20 @@ section.view-4 {
 
 /* Portrait tablets */
 @media (max-width: 641px) {
+  section h2 {
+    font-size: 4.5vmin !important; }
   section div h2 {
     font-size: 4.5vmin !important; }
-  section div figcaption {
+  section div p {
+    font-size: 3.5vmin !important; }
+  section div figcaption.topic {
     font-size: 4.5vmin !important; }
+  section div figcaption.explain-point {
+    font-size: 3.5vmin !important; }
 
   section.view-1 {
-    flex-direction: column; }
+    flex-direction: column;
+    font-size: 4.5vmin !important; }
     section.view-1 div {
       margin: 4.5vmin 0; }
 
