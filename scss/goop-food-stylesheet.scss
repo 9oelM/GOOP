@@ -1,7 +1,7 @@
 @import 'definitions.scss';
 
 * {
-  
+
 }
 
 header.view-1 {
@@ -291,10 +291,11 @@ div figure img {
   }
   section.view-5 {
     display: inherit;
-    min-height: 275vh;
+    min-height: 240vh;
     .explain-goop-food {
-
       font-size: 4.5vmin !important;
+      margin: 0;
+      padding: 4.5vmin;
     }
 
     img {

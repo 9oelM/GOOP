@@ -240,9 +240,11 @@ div figure img {
 
   section.view-5 {
     display: inherit;
-    min-height: 275vh; }
+    min-height: 240vh; }
     section.view-5 .explain-goop-food {
-      font-size: 4.5vmin !important; }
+      font-size: 4.5vmin !important;
+      margin: 0;
+      padding: 4.5vmin; }
     section.view-5 img {
       align-self: center;
       justify-self: center; }
