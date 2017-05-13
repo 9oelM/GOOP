@@ -328,6 +328,7 @@ section.view-6 {
       width: 100%;
       padding: 0 4.5vmin;
       text-align: left !important;
+      font-size: 4.5vmin;
       span {
         text-align: center;
       }
@@ -348,8 +349,12 @@ section.view-6 {
     }
     figure {
       width: auto !important;
-      figcaption {
+      figcaption.topic{
         font-size: 4.5vmin !important;
+        width: auto !important;
+      }
+      figcaption.explained {
+        font-size: 3.5vmin !important;
         width: auto !important;
       }
     }

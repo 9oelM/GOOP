@@ -284,7 +284,8 @@ section.view-6 {
   section.view-4half .what-are-you-waiting-for {
     width: 100%;
     padding: 0 4.5vmin;
-    text-align: left !important; }
+    text-align: left !important;
+    font-size: 4.5vmin; }
     section.view-4half .what-are-you-waiting-for span {
       text-align: center; }
 
@@ -300,8 +301,11 @@ section.view-6 {
       justify-self: center; }
     section.view-5 figure {
       width: auto !important; }
-      section.view-5 figure figcaption {
+      section.view-5 figure figcaption.topic {
         font-size: 4.5vmin !important;
+        width: auto !important; }
+      section.view-5 figure figcaption.explained {
+        font-size: 3.5vmin !important;
         width: auto !important; }
     section.view-5 .goop-food-points {
       margin: auto;
