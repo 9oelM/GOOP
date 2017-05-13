@@ -1,6 +1,7 @@
 footer {
   height: auto;
   padding: 4.5vh;
+  font-size: 3vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;

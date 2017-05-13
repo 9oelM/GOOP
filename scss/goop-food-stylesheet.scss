@@ -183,7 +183,9 @@ div figure img {
 }
 section.view-6 {
   @extend section%view-template-small;
-
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
   a.get-goop {
     -moz-border-radius: 18px;
     -webkit-border-radius: 18px;
@@ -198,8 +200,15 @@ section.view-6 {
     padding: 3vmin 3vmin;
     text-decoration: none;
     height: 10vmin;
+    min-width: 60vw;
     text-align: center;
     align-self: center;
+    margin: 4vmin 0 0 0;
+  }
+  a.tell-me{
+    @extend .get-goop;
+    background-color: $yellow;
+    margin: 4vmin 0;
   }
 }
 

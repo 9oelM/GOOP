@@ -7,7 +7,7 @@ section.view-1, section.view-2 {
   margin: 0;
   padding: 0; }
 
-section.view-3 {
+section.view-3, section.view-4 {
   height: 40vh;
   width: 100vw;
   display: flex;
@@ -19,6 +19,7 @@ section.view-3 {
 footer {
   height: auto;
   padding: 4.5vh;
+  font-size: 3vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;
@@ -30,23 +31,28 @@ footer {
   footer a:hover {
     text-decoration: underline; }
 
-section.view-1 div.hosting-an-event {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; }
-  section.view-1 div.hosting-an-event img {
-    width: 70vmin;
-    height: 40vmin;
+* {
+  border: 1px solid black; }
+
+section.view-1 {
+  border: 1px solid red; }
+  section.view-1 div.hosting-an-event {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
     align-self: center; }
-  section.view-1 div.hosting-an-event h2 {
-    font-size: 3.5vmin;
-    text-align: center; }
-  section.view-1 div.hosting-an-event p {
-    font-size: 3vmin;
-    text-align: left;
-    margin: 0.5vmin; }
+    section.view-1 div.hosting-an-event img {
+      width: 70vmin;
+      height: 40vmin;
+      align-self: center; }
+    section.view-1 div.hosting-an-event h2 {
+      font-size: 3.5vmin;
+      text-align: center; }
+    section.view-1 div.hosting-an-event p {
+      font-size: 3vmin;
+      text-align: left;
+      margin: 0.5vmin; }
 
 section h2 {
   font-size: 3.5vmin;
@@ -62,13 +68,13 @@ section figure {
     height: 30vh;
     width: 30vh;
     align-self: center; }
-  section figure figcaption:first-child {
+  section figure figcaption.topic {
     font-weight: bold;
     font-size: 3.5vmin;
-    margin: 0 0 3.5vmin 0; }
+    margin: 3.5vmin 0 3.5vmin 0; }
   section figure figcaption.explain-point {
     text-align: left;
-    width: 50%;
+    width: auto;
     font-size: 2.5vmin;
     align-self: center; }
 
@@ -86,8 +92,70 @@ section.view-3 {
   text-align: center; }
   section.view-3 figure {
     align-self: center; }
+    section.view-3 figure img {
+      width: 30vh;
+      height: 30vh; }
+  section.view-3 div {
+    flex-direction: column; }
+
+section.view-4 {
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto; }
+  section.view-4 a.get-goop, section.view-4 a.tell-me {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background-color: #FFF;
+    color: #FF723F;
+    border-radius: 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 3vmin 3vmin;
+    text-decoration: none;
+    height: 10vmin;
+    min-width: 60vw;
+    text-align: center;
+    align-self: center;
+    margin: 4vmin 0 0 0; }
+  section.view-4 a.tell-me {
+    background-color: #FDCE00;
+    margin: 4vmin 0; }
 
 /* Portrait tablets */
+@media (max-width: 641px) {
+  section div h2 {
+    font-size: 4.5vmin !important; }
+  section div figcaption {
+    font-size: 4.5vmin !important; }
+
+  section.view-1 {
+    flex-direction: column; }
+    section.view-1 div {
+      margin: 4.5vmin 0; }
+
+  section.view-2 {
+    height: auto; }
+    section.view-2 div {
+      flex-direction: column; }
+      section.view-2 div figure {
+        width: auto; }
+        section.view-2 div figure figcaption {
+          width: auto; }
+
+  section.view-3 {
+    height: auto; }
+    section.view-3 div {
+      flex-direction: column; }
+      section.view-3 div figure {
+        width: auto; }
+        section.view-3 div figure figcaption {
+          width: auto; }
+
+  footer {
+    font-size: 3vmin !important; } }
 /* Portrait phones */
 
 /*# sourceMappingURL=goop-event-stylesheet.css.map */

@@ -1,14 +1,16 @@
 @import 'definitions.scss';
-
+*{
+  border: 1px solid black;
+}
 section.view-1 {
   @extend section%view-template;
-
+  border: 1px solid red;
   div.hosting-an-event {
     width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    height: auto;
+    align-self: center;
     img{
       width: 70vmin;
       height: 40vmin;
@@ -44,14 +46,14 @@ section {
       width: 30vh;
       align-self: center;
     }
-    figcaption:first-child {
+    figcaption.topic{
       font-weight: bold;
       font-size: 3.5vmin;
-      margin: 0 0 3.5vmin 0;
+      margin: 3.5vmin 0 3.5vmin 0;
     }
     figcaption.explain-point {
       text-align: left;
-      width: 50%;
+      width: auto;
       font-size: 2.5vmin;
       align-self: center;
     }
@@ -76,12 +78,94 @@ section.view-3 {
   text-align: center;
   figure {
     align-self: center;
+    img{
+      width: 30vh;
+      height: 30vh;
+    }
   }
+  div{
+    flex-direction: column;
+  }
+}
+section.view-4 {
+  @extend section%view-template-small;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  a.get-goop {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background-color: $white;
+    color: $goop-orange;
+    border-radius: 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 3vmin 3vmin;
+    text-decoration: none;
+    height: 10vmin;
+    min-width: 60vw;
+    text-align: center;
+    align-self: center;
+    margin: 4vmin 0 0 0;
+  }
+  a.tell-me{
+    @extend .get-goop;
+    background-color: $yellow;
+    margin: 4vmin 0;
+  }
+
 }
 
 /* Portrait tablets */
 @media (max-width: 641px) {
+  section{
+    div{
+      h2{
+        font-size: 4.5vmin !important;
+      }
+      figcaption{
+        font-size: 4.5vmin !important;
+      }
+    }
 
+  }
+
+  section.view-1{
+    flex-direction: column;
+    div{
+      margin: 4.5vmin 0;
+    }
+  }
+  section.view-2{
+    height: auto;
+    div{
+      flex-direction: column;
+      figure{
+        width: auto;
+        figcaption{
+          width: auto;
+        }
+      }
+    }
+  }
+  section.view-3 {
+    height: auto;
+    div{
+      flex-direction: column;
+      figure{
+        width: auto;
+        figcaption{
+          width: auto;
+        }
+      }
+    }
+  }
+  footer{
+    font-size: 3vmin !important;
+  }
 }
 
 /* Portrait phones */
