@@ -1,7 +1,7 @@
 @import 'definitions.scss';
 
 * {
-
+  border: 1px solid black;
 }
 
 header.view-1 {
@@ -105,6 +105,7 @@ section.view-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-content: space-around;
   text-align: center;
   h2.we-promise-you {
     font-size: 4vmin;
@@ -117,14 +118,26 @@ section.view-4 {
       width: 20%;
     }
   }
+
+}
+
+.view-4half{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
   h2.what-are-you-waiting-for {
-    font-size: 2.5vmin;
+    font-size: 4vmin;
     font-weight: 400;
     width: 50%;
-    text-align: center;
+    text-align: left;
     align-self: center;
+
     span {
       display: block;
+      text-align: center;
+      margin-bottom: 4vmin;
     }
   }
 }
@@ -148,7 +161,7 @@ section.view-5 {
     align-self: center;
     justify-content: space-around;
     align-content: space-around;
-    width: 70%;
+    width: auto;
     font-size: 3.5vmin;
     text-align: center;
     figure {
@@ -229,6 +242,7 @@ div figure img {
   }
 
   section.view-3 {
+    height: auto;
     .well-good-news {
       padding: 4.5vmin 0 !important;
     }
@@ -240,7 +254,7 @@ div figure img {
     .well-good-news-point-explained {
       width: 90% !important;
       height: auto !important;
-      margin: auto auto auto auto !important;
+      margin: 4.5vmin auto auto auto !important;
       font-size: 4.5vmin !important;
       p {
         margin: 0;
@@ -250,15 +264,14 @@ div figure img {
       }
     }
     #fbmsg {
-      margin: auto auto 0 auto;
+      margin: auto auto auto auto !important;
       height: 30vh;
       width: 30vh;
-
     }
   }
 
   section.view-4 {
-    min-height: 165vh;
+    height: auto;
     display: inherit;
     h2 {
       width: auto !important;
@@ -269,14 +282,6 @@ div figure img {
     h2:first-child {
       padding: 4.5vmin 0 0 0;
     }
-    .what-are-you-waiting-for {
-      text-align: left !important;
-      padding: 9vmin 4.5vmin 4.5vmin 4.5vmin;
-      span {
-        text-align: center;
-        padding-bottom: 4.5vmin;
-      }
-    }
     img {
       align-self: center;
       justify-self: center;
@@ -285,13 +290,26 @@ div figure img {
       width: auto !important;
       figcaption {
         width: auto !important;
+        margin-top: 4.5vmin !important;
       }
       font-size: 4.5vmin;
+    }
+
+  }
+  section.view-4half{
+
+    .what-are-you-waiting-for {
+      width: 100%;
+      padding: 0 4.5vmin;
+      text-align: left !important;
+      span {
+        text-align: center;
+      }
     }
   }
   section.view-5 {
     display: inherit;
-    min-height: 240vh;
+    height: auto !important;
     .explain-goop-food {
       font-size: 4.5vmin !important;
       margin: 0;
@@ -312,6 +330,7 @@ div figure img {
     .goop-food-points {
       margin: auto;
       width: 80%;
+      height: auto !important;
       display: flex;
       flex-direction: column;
     }

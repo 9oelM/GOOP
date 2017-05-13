@@ -22,9 +22,21 @@ section.view-2 div.what-bothers, section.view-2 div.what-bothers div.point-wrapp
   justify-content: center; }
 
 footer {
-  height: 20vh;
+  height: auto;
+  padding: 4.5vh;
   width: 100vw;
-  background-color: #FF723F; }
+  background-color: #ff9f7c;
+  color: #FFF;
+  font-weight: 400; }
+  footer a {
+    display: block;
+    text-decoration: none;
+    color: #FFF; }
+  footer a:hover {
+    text-decoration: underline; }
+
+* {
+  border: 1px solid black; }
 
 header.view-1 {
   height: 80vh;
@@ -98,6 +110,7 @@ section.view-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-content: space-around;
   text-align: center; }
   section.view-4 h2.we-promise-you {
     font-size: 4vmin;
@@ -106,14 +119,23 @@ section.view-4 {
     font-size: 3.5vmin; }
     section.view-4 div.we-promise-points figure {
       width: 20%; }
-  section.view-4 h2.what-are-you-waiting-for {
-    font-size: 2.5vmin;
+
+.view-4half {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; }
+  .view-4half h2.what-are-you-waiting-for {
+    font-size: 4vmin;
     font-weight: 400;
     width: 50%;
-    text-align: center;
+    text-align: left;
     align-self: center; }
-    section.view-4 h2.what-are-you-waiting-for span {
-      display: block; }
+    .view-4half h2.what-are-you-waiting-for span {
+      display: block;
+      text-align: center;
+      margin-bottom: 4vmin; }
 
 section.view-5 {
   height: 100vh;
@@ -130,7 +152,7 @@ section.view-5 {
     align-self: center;
     justify-content: space-around;
     align-content: space-around;
-    width: 70%;
+    width: auto;
     font-size: 3.5vmin;
     text-align: center; }
     section.view-5 div.goop-food-points figure {
@@ -193,28 +215,30 @@ div figure img {
     font-size: 4.5vmin !important;
     margin: auto !important; }
 
-  section.view-3 .well-good-news {
-    padding: 4.5vmin 0 !important; }
-  section.view-3 figure {
-    width: 30vh;
-    height: 30vh;
-    margin: auto; }
-  section.view-3 .well-good-news-point-explained {
-    width: 90% !important;
-    height: auto !important;
-    margin: auto auto auto auto !important;
-    font-size: 4.5vmin !important; }
-    section.view-3 .well-good-news-point-explained p {
-      margin: 0; }
-    section.view-3 .well-good-news-point-explained p:first-child {
-      margin-bottom: 4.5vmin !important; }
-  section.view-3 #fbmsg {
-    margin: auto auto 0 auto;
-    height: 30vh;
-    width: 30vh; }
+  section.view-3 {
+    height: auto; }
+    section.view-3 .well-good-news {
+      padding: 4.5vmin 0 !important; }
+    section.view-3 figure {
+      width: 30vh;
+      height: 30vh;
+      margin: auto; }
+    section.view-3 .well-good-news-point-explained {
+      width: 90% !important;
+      height: auto !important;
+      margin: 4.5vmin auto auto auto !important;
+      font-size: 4.5vmin !important; }
+      section.view-3 .well-good-news-point-explained p {
+        margin: 0; }
+      section.view-3 .well-good-news-point-explained p:first-child {
+        margin-bottom: 4.5vmin !important; }
+    section.view-3 #fbmsg {
+      margin: auto auto auto auto !important;
+      height: 30vh;
+      width: 30vh; }
 
   section.view-4 {
-    min-height: 165vh;
+    height: auto;
     display: inherit; }
     section.view-4 h2 {
       width: auto !important;
@@ -223,12 +247,6 @@ div figure img {
       padding: 0 auto !important; }
     section.view-4 h2:first-child {
       padding: 4.5vmin 0 0 0; }
-    section.view-4 .what-are-you-waiting-for {
-      text-align: left !important;
-      padding: 9vmin 4.5vmin 4.5vmin 4.5vmin; }
-      section.view-4 .what-are-you-waiting-for span {
-        text-align: center;
-        padding-bottom: 4.5vmin; }
     section.view-4 img {
       align-self: center;
       justify-self: center; }
@@ -236,11 +254,19 @@ div figure img {
       width: auto !important;
       font-size: 4.5vmin; }
       section.view-4 figure figcaption {
-        width: auto !important; }
+        width: auto !important;
+        margin-top: 4.5vmin !important; }
+
+  section.view-4half .what-are-you-waiting-for {
+    width: 100%;
+    padding: 0 4.5vmin;
+    text-align: left !important; }
+    section.view-4half .what-are-you-waiting-for span {
+      text-align: center; }
 
   section.view-5 {
     display: inherit;
-    min-height: 240vh; }
+    height: auto !important; }
     section.view-5 .explain-goop-food {
       font-size: 4.5vmin !important;
       margin: 0;
@@ -256,6 +282,7 @@ div figure img {
     section.view-5 .goop-food-points {
       margin: auto;
       width: 80%;
+      height: auto !important;
       display: flex;
       flex-direction: column; } }
 /* Portrait phones */

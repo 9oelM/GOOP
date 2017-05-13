@@ -1,7 +1,16 @@
 footer {
-  height: 20vh;
+  height: auto;
+  padding: 4.5vh;
   width: 100vw;
-  background-color: #FF723F; }
+  background-color: #ff9f7c;
+  color: #FFF;
+  font-weight: 400; }
+  footer a {
+    display: block;
+    text-decoration: none;
+    color: #FFF; }
+  footer a:hover {
+    text-decoration: underline; }
 
 *, *:before, *:after {
   font-family: "Quicksand", sans-serif;
