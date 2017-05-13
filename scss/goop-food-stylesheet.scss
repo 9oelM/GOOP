@@ -181,6 +181,27 @@ div figure img {
   width: 30vh;
   height: 30vh;
 }
+section.view-6 {
+  @extend section%view-template-small;
+
+  a.get-goop {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background-color: $white;
+    color: $goop-orange;
+    border-radius: 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 3vmin 3vmin;
+    text-decoration: none;
+    height: 10vmin;
+    text-align: center;
+    align-self: center;
+  }
+}
 
 /* Portrait tablets */
 @media (max-width: 641px) {

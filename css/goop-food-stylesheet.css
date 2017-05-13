@@ -7,7 +7,7 @@ section.view-4, section.view-5 {
   margin: 0;
   padding: 0; }
 
-section.view-2, section.view-3 {
+section.view-2, section.view-3, section.view-6 {
   height: 40vh;
   width: 100vw;
   display: flex;
@@ -25,7 +25,7 @@ footer {
   height: auto;
   padding: 4.5vh;
   width: 100vw;
-  background-color: #ff9f7c;
+  background-color: #FF723F;
   color: #FFF;
   font-weight: 400; }
   footer a {
@@ -167,6 +167,23 @@ section.view-5 {
 div figure img {
   width: 30vh;
   height: 30vh; }
+
+section.view-6 a.get-goop {
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  background-color: #FFF;
+  color: #FF723F;
+  border-radius: 18px;
+  border: none;
+  display: block;
+  cursor: pointer;
+  font-size: 4vmin;
+  font-weight: 700;
+  padding: 3vmin 3vmin;
+  text-decoration: none;
+  height: 10vmin;
+  text-align: center;
+  align-self: center; }
 
 /* Portrait tablets */
 @media (max-width: 641px) {
