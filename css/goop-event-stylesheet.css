@@ -85,7 +85,7 @@ section.view-2 {
   text-align: center; }
 
 section.view-3 {
-  height: 55vh;
+  height: auto;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;

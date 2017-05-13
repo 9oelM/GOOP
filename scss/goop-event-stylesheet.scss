@@ -71,7 +71,7 @@ section.view-2 {
 
 section.view-3 {
   @extend section%view-template-small;
-  height: 55vh;
+  height: auto;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
