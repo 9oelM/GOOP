@@ -31,9 +31,6 @@ footer {
   footer a:hover {
     text-decoration: underline; }
 
-* {
-  border: 1px solid black; }
-
 section.view-1 {
   border: 1px solid red; }
   section.view-1 div.hosting-an-event {

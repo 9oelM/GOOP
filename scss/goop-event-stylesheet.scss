@@ -1,7 +1,5 @@
 @import 'definitions.scss';
-*{
-  border: 1px solid black;
-}
+
 section.view-1 {
   @extend section%view-template;
   border: 1px solid red;
