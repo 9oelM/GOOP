@@ -35,9 +35,6 @@ footer {
   footer a:hover {
     text-decoration: underline; }
 
-* {
-  border: 1px solid black; }
-
 header.view-1 {
   height: 80vh;
   width: 100vw;
