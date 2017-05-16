@@ -242,6 +242,8 @@ section.view-6 {
   }
 
   section.view-2 {
+    height: auto;
+    padding: 4.5vmin 0;
     .what-bothers {
       text-align: center !important;
       height: 100%;
@@ -249,11 +251,13 @@ section.view-6 {
       .point-wrapper {
         height: auto !important;
         width: 100% !important;
-        margin: auto !important;
+        margin: auto auto 4.5vmin auto !important;
+
       }
     }
     #pain-point-explained-phone {
       display: inherit !important;
+      margin-top: 4.5vmin !important;
     }
     .pain-point-explained-desktop {
       display: none !important;
@@ -323,7 +327,7 @@ section.view-6 {
 
   }
   section.view-4half{
-
+    height: auto;
     .what-are-you-waiting-for {
       width: 100%;
       padding: 0 4.5vmin;

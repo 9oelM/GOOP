@@ -222,22 +222,26 @@ section.view-6 {
       display: flex;
       flex-direction: column; }
 
-  section.view-2 .what-bothers {
-    text-align: center !important;
-    height: 100%; }
-    section.view-2 .what-bothers .point-wrapper {
-      height: auto !important;
-      width: 100% !important;
+  section.view-2 {
+    height: auto;
+    padding: 4.5vmin 0; }
+    section.view-2 .what-bothers {
+      text-align: center !important;
+      height: 100%; }
+      section.view-2 .what-bothers .point-wrapper {
+        height: auto !important;
+        width: 100% !important;
+        margin: auto auto 4.5vmin auto !important; }
+    section.view-2 #pain-point-explained-phone {
+      display: inherit !important;
+      margin-top: 4.5vmin !important; }
+    section.view-2 .pain-point-explained-desktop {
+      display: none !important; }
+    section.view-2 figure {
+      margin: 0; }
+    section.view-2 p {
+      font-size: 4.5vmin !important;
       margin: auto !important; }
-  section.view-2 #pain-point-explained-phone {
-    display: inherit !important; }
-  section.view-2 .pain-point-explained-desktop {
-    display: none !important; }
-  section.view-2 figure {
-    margin: 0; }
-  section.view-2 p {
-    font-size: 4.5vmin !important;
-    margin: auto !important; }
 
   section.view-3 {
     height: auto; }
@@ -281,13 +285,15 @@ section.view-6 {
         width: auto !important;
         margin-top: 4.5vmin !important; }
 
-  section.view-4half .what-are-you-waiting-for {
-    width: 100%;
-    padding: 0 4.5vmin;
-    text-align: left !important;
-    font-size: 4.5vmin; }
-    section.view-4half .what-are-you-waiting-for span {
-      text-align: center; }
+  section.view-4half {
+    height: auto; }
+    section.view-4half .what-are-you-waiting-for {
+      width: 100%;
+      padding: 0 4.5vmin;
+      text-align: left !important;
+      font-size: 4.5vmin; }
+      section.view-4half .what-are-you-waiting-for span {
+        text-align: center; }
 
   section.view-5 {
     display: inherit;
