@@ -8,6 +8,7 @@
     <link href="css/goop-general-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/goop-event-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/hover-min.css" type="text/css" rel="stylesheet"/>
+    <script src="js/scrollreveal.min.js"></script>
     <script>
         window.sr = ScrollReveal();
     </script>
@@ -27,16 +28,16 @@
     </div>
 </section>
 <section class = "view-2 bg-goop-orange-sub text-white">
-    <h2>To Visitors</h2>
+    <h2 class = "to-visitors">To Visitors</h2>
     <div>
-    <figure>
+    <figure class = "point-1">
 
         <img src = "assets/handy-reminder-ver.2Artboard 1@0.5.png" alt = "handy reminder"/>
         <figcaption class = "topic">Handy Reminders</figcaption>
         <figcaption class = "explain-point">Just like a friend - text your Visitors to make sure they won't miss anything important.
         </figcaption>
     </figure>
-    <figure>
+    <figure class = "point-2">
 
         <img/>
         <figcaption class = "topic">Personal Promotion</figcaption>
@@ -47,7 +48,7 @@
     </div>
 </section>
 <section class = "view-3 bg-goop-orange text-white">
-    <div>
+    <div class = "to-exhibitors">
     <h2>To Exhibitors/Crews</h2>
     <figure>
         <img src = "assets/sync-ver1sync-flat@1024px.png" alt = "full sync"/>
@@ -71,5 +72,13 @@
     <a href = "#">Contact us</a>
     Copyright@GOOP 2017
 </footer>
-<script src="js/scrollreveal.min.js"></script>
+<script>
+    sr.reveal('.hosting-an-event');
+    sr.reveal('.to-visitors');
+    sr.reveal('.point-1');
+    sr.reveal('.point-2');
+    sr.reveal('.to-exhibitors');
+    sr.reveal('.get-goop');
+    sr.reveal('.tell-me');
+</script>
 </body>
