@@ -24,7 +24,7 @@ section.view-2 div.what-bothers, section.view-2 div.what-bothers div.point-wrapp
 footer {
   height: auto;
   padding: 4.5vh;
-  font-size: 3vmin !important;
+  max-font-size: 2vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;

@@ -8,7 +8,10 @@
     <link href="css/goop-general-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/goop-food-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/hover-min.css" type="text/css" rel="stylesheet"/>
-
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+    </script>
 </head>
 <body>
 <header class="view-1 text-goop-orange">
@@ -34,6 +37,7 @@
         </p>
     </div>
 </section>
+
 <section class="view-3 text-white bg-goop-orange-sub">
     <div class="well-good-news">
         <figure class="well-good-news-illustration">
@@ -49,15 +53,15 @@
 <section class="view-4 bg-goop-orange text-white">
     <h2 class="we-promise-you">We <strong>promise</strong> you, using GOOP means:</h2>
     <div class="we-promise-points">
-        <figure>
+        <figure class = "promise1">
             <img/>
             <figcaption>No installation</figcaption>
         </figure>
-        <figure>
+        <figure class = "promise2">
             <img/>
             <figcaption>Absolutely Free and Forever Will Be</figcaption>
         </figure>
-        <figure>
+        <figure class = "promise3">
             <img src = "assets/tons-of-fun.ver1Artboard 1@1024px.png" alt = "tons of fun for you and your friends!"/>
             <figcaption>Tons of fun for you and your friends!</figcaption>
         </figure>
@@ -71,7 +75,7 @@
 <section class="view-5 bg-goop-orange text-white">
     <h2 class="explain-goop-food">We know, all you want is <strong>food</strong>, not discussion. </h2>
     <div class="goop-food-points">
-        <figure>
+        <figure class = "food-point-1">
             <img src="assets/intuitive-search.ver3Artboard 1@0.5.png"
                  alt="intuitive search"/>
             <figcaption class="topic">Intuitive search</figcaption>
@@ -79,7 +83,7 @@
                 preference expression over a tap of your finger. Easy.
             </figcaption>
         </figure>
-        <figure>
+        <figure class = "food-point-2">
             <img src="assets/intelligent-recommendation-algorithm.ver6Artboard 1@0.5.png"
                  alt="intelligent recommendation algorithm"/>
             <figcaption class="topic">Intelligent recommendation algorithm</figcaption>
@@ -87,7 +91,7 @@
                 It offers options that satisfy everyone. Works like magic, except it's real.
             </figcaption>
         </figure>
-        <figure>
+        <figure class = "food-point-3">
             <img src="assets/one-tap-share.ver4Artboard 1@0.5.png"
                  alt="one-tap share"/>
             <figcaption class="topic">One-Tap Share</figcaption>
@@ -110,4 +114,33 @@
     <a href = "#">Contact us</a>
     Copyright@GOOP 2017
 </footer>
+<script>
+    //view-1
+    sr.reveal('.goop-logo');
+    sr.reveal('.goop-in-one-phrase');
+    //view-2
+    sr.reveal('.point-wrapper');
+    sr.reveal('.pain-point-illustration');
+    sr.reveal('.pain-point-explained-phone');
+    //view-3
+    sr.reveal('.well-good-news');
+    sr.reveal('.well-good-news-point-explained');
+    //view-4
+    sr.reveal('.we-promise-you');
+    sr.reveal('.promise1');
+    sr.reveal('.promise2');
+    sr.reveal('.promise3');
+    //view-4.5
+    sr.reveal('.what-are-you-waiting-for');
+    //view-5
+    sr.reveal('.explain-goop-food');
+    sr.reveal('.food-point-1');
+    sr.reveal('.food-point-2');
+    sr.reveal('.food-point-3');
+    //view-6
+    sr.reveal('.get-goop');
+    sr.reveal('.tell-me');
+
+</script>
+
 </body>

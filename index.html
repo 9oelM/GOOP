@@ -8,7 +8,10 @@
     <link href="css/goop-general-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/goop-index-stylesheet.css" type="text/css" rel="stylesheet"/>
     <link href="css/hover-min.css" type="text/css" rel="stylesheet"/>
-
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal( { duration: 1500 });
+    </script>
 </head>
 <body>
 <div class="main">
@@ -17,7 +20,7 @@
         <div class = "who-are-you who-a text-goop-orange">
             <p>Who a</p>
         </div>
-        <div class = "content text-goop-orange">
+        <div class = "content text-goop-orange leftOption">
             <p>
                 a <b>HUMAN</b>
             </p>
@@ -28,7 +31,7 @@
         </div>
     </section>
     <section class="right">
-        <div class = "who-are-you re-you text-white">
+        <div class = "who-are-you re-you text-white rightOption">
             <p>re you?</p>
         </div>
         <div class = "content text-white">
@@ -53,4 +56,10 @@
 
 </footer>
 -->
+<script>
+    sr.reveal('.background', 50);
+    sr.reveal('.who-are-you', 50);
+    sr.reveal('.goop-logo', 50);
+    sr.reveal('.content', 50);
+</script>
 </body>

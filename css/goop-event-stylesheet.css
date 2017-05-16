@@ -19,7 +19,7 @@ section.view-3, section.view-4 {
 footer {
   height: auto;
   padding: 4.5vh;
-  font-size: 3vmin !important;
+  max-font-size: 2vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;
@@ -154,10 +154,7 @@ section.view-4 {
       section.view-3 div figure {
         width: auto; }
         section.view-3 div figure figcaption {
-          width: auto; }
-
-  footer {
-    font-size: 3vmin !important; } }
+          width: auto; } }
 /* Portrait phones */
 
 /*# sourceMappingURL=goop-event-stylesheet.css.map */
