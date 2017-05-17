@@ -1,4 +1,6 @@
 # GOOP: General outline
+**VIEW ON https://9oelM.github.io/GOOP
+
 **1. Overall design identity**
   * Color?:
   * Logo:
