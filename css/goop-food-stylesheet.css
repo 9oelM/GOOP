@@ -1,5 +1,5 @@
 section.view-4, section.view-5 {
-  min-height: 80vh;
+  height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@ section.view-4, section.view-5 {
   padding: 0; }
 
 section.view-2, section.view-3, section.view-6 {
-  height: 40vh;
+  height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -37,12 +37,12 @@ footer {
     text-decoration: underline; }
 
 header.view-1 {
-  height: 80vh;
   width: 100vw;
   margin: 0;
   display: flex;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 40vmin 0; }
   header.view-1 figure.center-wrapper {
     align-self: center;
     justify-content: center;
@@ -61,51 +61,58 @@ header.view-1 {
     text-align: center;
     margin: 4vmin 0 0 0; }
 
-section.view-2 div.what-bothers {
-  text-align: left;
-  width: 70%;
-  align-self: center; }
-  section.view-2 div.what-bothers div.point-wrapper {
-    margin-right: 4vmin;
-    height: inherit;
-    flex-direction: column; }
-    section.view-2 div.what-bothers div.point-wrapper p.pain-point-msg {
-      display: block;
+section.view-2 {
+  padding: 4.5vmin 0; }
+  section.view-2 div.what-bothers {
+    text-align: left;
+    width: 70%; }
+    section.view-2 div.what-bothers div.point-wrapper {
+      margin-right: 4vmin;
+      flex-direction: column; }
+      section.view-2 div.what-bothers div.point-wrapper p {
+        margin: 0;
+        font-size: 3.5vmin; }
+      section.view-2 div.what-bothers div.point-wrapper p.pain-point-explained-desktop {
+        margin-top: 3.5vmin; }
+    section.view-2 div.what-bothers figure.pain-point-illustration {
+      height: 30vh;
+      margin: 0;
+      padding: 0; }
+      section.view-2 div.what-bothers figure.pain-point-illustration img {
+        height: 30vh;
+        width: 30vh;
+        margin: 0; }
+    section.view-2 div.what-bothers #pain-point-explained-phone {
+      margin: 0 0 3.5vmin 0;
       font-size: 3.5vmin;
-      margin: auto 0 auto 0; }
-    section.view-2 div.what-bothers div.point-wrapper p.pain-point-explained-desktop {
-      display: block;
-      margin: 0 0 auto 0;
-      font-size: 3.5vmin; }
-  section.view-2 div.what-bothers figure.pain-point-illustration img {
-    height: 30vh;
-    width: 30vh;
-    margin: 0 0 0 0; }
-  section.view-2 div.what-bothers #pain-point-explained-phone {
-    margin: 0 0 3.5vmin 0;
-    font-size: 3.5vmin;
-    display: none; }
+      display: none; }
 
 section.view-3 {
+  padding: 4.5vmin 0;
   font-size: 3.5vmin; }
   section.view-3 div.well-good-news {
-    width: 70%;
-    display: flex;
-    justify-content: space-around; }
+    width: 70%; }
     section.view-3 div.well-good-news figure.well-good-news-illustration {
-      margin: auto 0 auto 0; }
+      margin: auto 4.5vmin auto 0;
+      padding: 0;
+      height: 30vh; }
       section.view-3 div.well-good-news figure.well-good-news-illustration img {
         height: 30vh;
         width: 30vh;
-        margin: auto 4vmin auto 0; }
+        margin: 0;
+        padding: 0; }
     section.view-3 div.well-good-news div.well-good-news-point-explained {
       margin-left: 4vmin;
       text-align: left;
       width: 70%;
-      align-self: center; }
+      align-self: center;
+      height: auto; }
+      section.view-3 div.well-good-news div.well-good-news-point-explained p {
+        margin: 0; }
+      section.view-3 div.well-good-news div.well-good-news-point-explained p.sounds-like {
+        margin: 4.5vmin 0 0 0; }
 
 section.view-4 {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
@@ -116,7 +123,9 @@ section.view-4 {
   section.view-4 div.we-promise-points {
     font-size: 3.5vmin; }
     section.view-4 div.we-promise-points figure {
-      width: 20%; }
+      width: 30vh; }
+      section.view-4 div.we-promise-points figure img {
+        margin-bottom: 4.5vmin; }
 
 .view-4half {
   display: flex;
@@ -136,7 +145,7 @@ section.view-4 {
       margin-bottom: 4vmin; }
 
 section.view-5 {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -200,12 +209,6 @@ section.view-6 {
   .goop-in-one-phrase {
     font-size: 4.5vmin !important; }
 
-  section.view-2 {
-    height: 75vh; }
-
-  section.view-3 {
-    height: 90vh; }
-
   .pain-point-explained-phone {
     margin: 0 0 3.5vmin 0;
     font-size: 3.5vmin;
@@ -245,8 +248,6 @@ section.view-6 {
 
   section.view-3 {
     height: auto; }
-    section.view-3 .well-good-news {
-      padding: 4.5vmin 0 !important; }
     section.view-3 figure {
       width: 30vh;
       height: 30vh;

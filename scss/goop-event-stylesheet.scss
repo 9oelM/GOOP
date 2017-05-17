@@ -2,11 +2,11 @@
 
 section.view-1 {
   @extend section%view-template;
+  padding: 10vmin 0;
   div.hosting-an-event {
     width: 70%;
     display: flex;
     flex-direction: column;
-    height: auto;
     align-self: center;
     img{
       width: 70vmin;

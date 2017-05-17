@@ -1,12 +1,12 @@
 @import 'definitions.scss';
 
 header.view-1 {
-  height: 80vh;
   width: 100vw;
   margin: 0;
   display: flex;
   align-content: center;
   justify-content: center;
+  padding: 40vmin 0;
   figure.center-wrapper {
     align-self: center;
     justify-content: center;
@@ -31,35 +31,32 @@ header.view-1 {
 
 section.view-2 {
   @extend section%view-template-small;
-
+  padding: 4.5vmin 0;
   div.what-bothers {
     text-align: left;
     width: 70%;
-    align-self: center;
-    @extend div%display-flex-and-center-elements-template;
 
+    @extend div%display-flex-and-center-elements-template;
     div.point-wrapper {
       margin-right: 4vmin;
-      height: inherit;
       @extend div%display-flex-and-center-elements-template;
       flex-direction: column;
-
-      p.pain-point-msg {
-        display: block;
+      p{
+        margin: 0;
         font-size: 3.5vmin;
-        margin: auto 0 auto 0;
       }
-      p.pain-point-explained-desktop {
-        display: block;
-        margin: 0 0 auto 0;
-        font-size: 3.5vmin;
+      p.pain-point-explained-desktop{
+        margin-top: 3.5vmin;
       }
     }
     figure.pain-point-illustration {
+      height: 30vh;
+      margin: 0;
+      padding: 0;
       img {
         height: 30vh;
         width: 30vh;
-        margin: 0 0 0 0;
+        margin: 0;
       }
     }
     #pain-point-explained-phone {
@@ -72,19 +69,21 @@ section.view-2 {
 
 section.view-3 {
   @extend section%view-template-small;
+  padding: 4.5vmin 0;
   font-size: 3.5vmin;
   div.well-good-news {
     @extend div%display-flex-and-center-elements-template;
     width: 70%;
-    display: flex;
-    justify-content: space-around;
 
     figure.well-good-news-illustration {
-      margin: auto 0 auto 0;
+      margin: auto 4.5vmin auto 0;
+      padding: 0;
+      height: 30vh;
       img {
         height: 30vh;
         width: 30vh;
-        margin: auto 4vmin auto 0;
+        margin: 0;
+        padding: 0;
       }
     }
     div.well-good-news-point-explained {
@@ -92,13 +91,19 @@ section.view-3 {
       text-align: left;
       width: 70%;
       align-self: center;
+      height: auto;
+      p{
+        margin: 0;
+      }
+      p.sounds-like{
+        margin: 4.5vmin 0 0 0;
+      }
     }
   }
 }
 
 section.view-4 {
   @extend section%view-template;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
@@ -111,7 +116,10 @@ section.view-4 {
     @extend div%display-flex-and-center-elements-template;
     font-size: 3.5vmin;
     figure {
-      width: 20%;
+      width: 30vh;
+      img{
+        margin-bottom: 4.5vmin;
+      }
     }
   }
 
@@ -140,7 +148,7 @@ section.view-4 {
 
 section.view-5 {
   @extend section%view-template;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -217,12 +225,6 @@ section.view-6 {
   .goop-in-one-phrase {
     font-size: 4.5vmin !important;
   }
-  section.view-2 {
-    height: 75vh;
-  }
-  section.view-3 {
-    height: 90vh;
-  }
   .pain-point-explained-phone {
     margin: 0 0 3.5vmin 0;
     font-size: 3.5vmin;
@@ -273,9 +275,6 @@ section.view-6 {
 
   section.view-3 {
     height: auto;
-    .well-good-news {
-      padding: 4.5vmin 0 !important;
-    }
     figure {
       width: 30vh;
       height: 30vh;

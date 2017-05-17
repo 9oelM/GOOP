@@ -4,7 +4,7 @@ $goop-orange-sub: #ff9f7c;
 $white: #FFF;
 $yellow: #FDCE00;
 section%view-template {
-  min-height: 80vh;
+  height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ section%view-template {
 }
 
 section%view-template-small{
-  height: 40vh;
+  height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
