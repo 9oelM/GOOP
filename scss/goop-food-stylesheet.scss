@@ -6,7 +6,7 @@ header.view-1 {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 40vmin 0;
+  padding: 25vmin 0;
   figure.center-wrapper {
     align-self: center;
     justify-content: center;
@@ -242,7 +242,9 @@ section.view-6 {
       flex-direction: column;
     }
   }
-
+  header.view-1{
+    padding: 40vmin 0;
+  }
   section.view-2 {
     height: auto;
     padding: 4.5vmin 0;
