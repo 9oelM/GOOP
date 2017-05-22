@@ -46,7 +46,7 @@ section.view-1 {
       height: 40vmin;
       align-self: center; }
     section.view-1 div.hosting-an-event h2 {
-      font-size: 3.5vmin;
+      font-size: 4vmin;
       text-align: center; }
     section.view-1 div.hosting-an-event p {
       font-size: 3vmin;
@@ -54,7 +54,7 @@ section.view-1 {
       margin: 0.5vmin; }
 
 section h2 {
-  font-size: 3.5vmin;
+  font-size: 4vmin;
   font-weight: bold; }
 section div {
   display: flex;
@@ -72,12 +72,12 @@ section figure {
     align-self: center; }
   section figure figcaption.topic {
     font-weight: bold;
-    font-size: 3.5vmin;
+    font-size: 4vmin;
     margin: 3.5vmin 0 3.5vmin 0; }
   section figure figcaption.explain-point {
     text-align: left;
     width: auto;
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     align-self: center; }
 
 section.view-2 {
