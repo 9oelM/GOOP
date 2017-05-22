@@ -34,9 +34,6 @@ footer {
 @media (max-width: 641px) {
   footer {
     font-size: 3vmin !important; } }
-* {
-  border: 1px solid black; }
-
 header.view-0 {
   width: 100vw;
   margin: 0;
