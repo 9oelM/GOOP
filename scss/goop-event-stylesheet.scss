@@ -1,8 +1,43 @@
 @import 'definitions.scss';
+*{
+  border: 1px solid black;
+}
+header.view-0{
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 17vmin 0;
+  figure.center-wrapper {
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  img.goop-logo {
+    width: 30vmax;
+    height: 12.53vmax;
+    margin: 0 auto 0 auto;
+    justify-self: center;
+    align-self: center;
+  }
+  h2 {
+    font-size: 4vmin;
+    text-align: center;
+  }
+  figcaption.goop-in-one-phrase {
+    font-weight: 400;
+    font-size: 4vmin;
+    text-align: center;
+    margin: 4vmin 0 0 0;
+  }
+}
 
 section.view-1 {
   @extend section%view-template;
-  padding: 10vmin 0;
+  padding: 4.5vmin;
   div.hosting-an-event {
     width: 70%;
     display: flex;
@@ -12,10 +47,7 @@ section.view-1 {
       width: 70vmin;
       height: 40vmin;
       align-self: center;
-    }
-    h2 {
-      font-size: 4vmin;
-      text-align: center;
+      margin-bottom: 4vmin;
     }
     p {
       font-size: 3vmin;
@@ -88,7 +120,40 @@ section.view-3 {
     flex-direction: column;
   }
 }
-section.view-4 {
+section.view-4{
+  @extend section%view-template-small;
+  flex-direction: column;
+  text-align: center;
+  figure{
+    width: 30vh;
+  }
+}
+section.view-5{
+  @extend section%view-template-small;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4vmin;
+  a{
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background-color: $white;
+    color: $goop-orange;
+    border-radius: 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 3vmin 3vmin;
+    text-decoration: none;
+    height: 10vmin;
+    min-width: 60vw;
+    text-align: center;
+    align-self: center;
+    margin: 0 0 4vmin 0;
+  }
+}
+section.view-6 {
   @extend section%view-template-small;
   flex-direction: column;
   justify-content: space-around;
