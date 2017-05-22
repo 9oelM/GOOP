@@ -55,11 +55,14 @@ section h2 {
   font-weight: bold; }
 section div {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  align-self: center; }
 section figure {
   display: flex;
   flex-direction: column;
-  width: calc(100vw / 2); }
+  width: calc(80% /2); }
   section figure img {
     height: 30vh;
     width: 30vh;
@@ -76,8 +79,8 @@ section figure {
 
 section.view-2 {
   flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
+  justify-content: center;
+  align-content: center;
   text-align: center; }
 
 section.view-3 {

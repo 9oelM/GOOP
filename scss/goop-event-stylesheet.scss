@@ -33,11 +33,14 @@ section {
   div {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
   }
   figure {
     display: flex;
     flex-direction: column;
-    width: calc(100vw / 2);
+    width: calc(80% /2);
     img{
       height: 30vh;
       width: 30vh;
@@ -60,9 +63,10 @@ section {
 
 section.view-2 {
   @extend section%view-template;
+
   flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
+  justify-content: center;
+  align-content: center;
   text-align: center;
 }
 
