@@ -1,7 +1,7 @@
 footer {
   height: auto;
   padding: 4.5vh;
-  max-font-size: 2vmin !important;
+  font-size: 2vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;
@@ -12,5 +12,9 @@ footer {
     color: #FFF; }
   footer a:hover {
     text-decoration: underline; }
+
+@media (max-width: 641px) {
+  footer {
+    font-size: 3vmin !important; } }
 
 /*# sourceMappingURL=definitions.css.map */

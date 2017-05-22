@@ -19,7 +19,7 @@ section.view-3, section.view-4 {
 footer {
   height: auto;
   padding: 4.5vh;
-  max-font-size: 2vmin !important;
+  font-size: 2vmin !important;
   width: 100vw;
   background-color: #FF723F;
   color: #FFF;
@@ -31,6 +31,9 @@ footer {
   footer a:hover {
     text-decoration: underline; }
 
+@media (max-width: 641px) {
+  footer {
+    font-size: 3vmin !important; } }
 section.view-1 {
   padding: 10vmin 0; }
   section.view-1 div.hosting-an-event {
