@@ -57,7 +57,7 @@ header.view-1 {
     align-self: center; }
   header.view-1 figcaption.goop-in-one-phrase {
     font-weight: 400;
-    font-size: 3.5vmin;
+    font-size: 4vmin;
     text-align: center;
     margin: 4vmin 0 0 0; }
 
@@ -71,7 +71,7 @@ section.view-2 {
       flex-direction: column; }
       section.view-2 div.what-bothers div.point-wrapper p {
         margin: 0;
-        font-size: 3.5vmin; }
+        font-size: 4vmin; }
       section.view-2 div.what-bothers div.point-wrapper p.pain-point-explained-desktop {
         margin-top: 3.5vmin; }
     section.view-2 div.what-bothers figure.pain-point-illustration {
@@ -81,15 +81,15 @@ section.view-2 {
       section.view-2 div.what-bothers figure.pain-point-illustration img {
         height: 30vh;
         width: 30vh;
-        margin: 0; }
+        margin: 0 0 0 0; }
     section.view-2 div.what-bothers #pain-point-explained-phone {
       margin: 0 0 3.5vmin 0;
-      font-size: 3.5vmin;
+      font-size: 4vmin;
       display: none; }
 
 section.view-3 {
   padding: 4.5vmin 0;
-  font-size: 3.5vmin; }
+  font-size: 4vmin; }
   section.view-3 div.well-good-news {
     width: 70%; }
     section.view-3 div.well-good-news figure.well-good-news-illustration {
@@ -121,11 +121,12 @@ section.view-4 {
     font-size: 4vmin;
     font-weight: 400; }
   section.view-4 div.we-promise-points {
-    font-size: 3.5vmin; }
+    justify-content: space-around;
+    font-size: 4vmin; }
     section.view-4 div.we-promise-points figure {
       width: 30vh; }
       section.view-4 div.we-promise-points figure img {
-        margin-bottom: 4.5vmin; }
+        margin-bottom: 3vmin; }
 
 .view-4half {
   display: flex;
@@ -160,17 +161,17 @@ section.view-5 {
     justify-content: space-around;
     align-content: space-around;
     width: auto;
-    font-size: 3.5vmin;
+    font-size: 4vmin;
     text-align: center; }
     section.view-5 div.goop-food-points figure {
       width: calc(70% / 3); }
       section.view-5 div.goop-food-points figure figcaption.topic {
-        font-size: 3.5vmin;
+        font-size: 4vmin;
         font-weight: bold;
         margin: 2.5vmin 0 2.5vmin 0;
         height: auto; }
       section.view-5 div.goop-food-points figure figcaption.explained {
-        font-size: 2.5vmin;
+        font-size: 3vmin;
         text-align: left;
         margin: 0 0 2.5vmin 0; }
 
