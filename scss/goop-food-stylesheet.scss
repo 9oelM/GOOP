@@ -1,5 +1,7 @@
 @import 'definitions.scss';
-
+*{
+  border: 1px solid white;
+}
 header.view-1 {
   width: 100vw;
   margin: 0;
@@ -98,6 +100,25 @@ section.view-3 {
       p.sounds-like{
         margin: 4.5vmin 0 0 0;
       }
+      a.get-goop {
+        -moz-border-radius: 18px;
+        -webkit-border-radius: 18px;
+        background-color: $white;
+        color: $goop-orange;
+        border-radius: 18px;
+        border: none;
+        display: block;
+        cursor: pointer;
+        font-size: 4vmin;
+        font-weight: 700;
+        padding: 3vmin 3vmin;
+        text-decoration: none;
+        height: 10vmin;
+        min-width: 40vw;
+        text-align: center;
+        align-self: center;
+        margin: 4vmin 0 0 0;
+      }
     }
   }
 }
@@ -128,6 +149,7 @@ section.view-4 {
 
 .view-4half{
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   width: 100%;
@@ -142,8 +164,26 @@ section.view-4 {
     span {
       display: block;
       text-align: center;
-      margin-bottom: 4vmin;
     }
+  }
+  a.get-goop {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background-color: $white;
+    color: $goop-orange;
+    border-radius: 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 3vmin 3vmin;
+    text-decoration: none;
+    height: 10vmin;
+    min-width: 60vw;
+    text-align: center;
+    align-self: center;
+    margin: 0 0 4vmin 0;
   }
 }
 
@@ -190,6 +230,7 @@ div figure img {
   width: 30vh;
   height: 30vh;
 }
+
 section.view-6 {
   @extend section%view-template-small;
   height: auto;
@@ -278,6 +319,10 @@ section.view-6 {
 
   section.view-3 {
     height: auto;
+    flex-direction: column;
+    div{
+      margin: auto;
+    }
     figure {
       width: 30vh;
       height: 30vh;
@@ -300,6 +345,7 @@ section.view-6 {
       height: 30vh;
       width: 30vh;
     }
+
   }
 
   section.view-4 {
