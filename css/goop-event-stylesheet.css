@@ -216,6 +216,15 @@ section.view-6 {
       section.view-3 div figure {
         width: auto; }
         section.view-3 div figure figcaption {
+          width: auto; }
+
+  section.view-4 {
+    height: auto; }
+    section.view-4 div {
+      flex-direction: column; }
+      section.view-4 div figure {
+        width: auto; }
+        section.view-4 div figure figcaption {
           width: auto; } }
 /* Portrait phones */
 

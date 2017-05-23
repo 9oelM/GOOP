@@ -1,6 +1,6 @@
 @import 'definitions.scss';
 *{
-
+  
 }
 header.view-0{
   width: 100vw;
@@ -228,6 +228,18 @@ section.view-6 {
     }
   }
   section.view-3 {
+    height: auto;
+    div{
+      flex-direction: column;
+      figure{
+        width: auto;
+        figcaption{
+          width: auto;
+        }
+      }
+    }
+  }
+  section.view-4 {
     height: auto;
     div{
       flex-direction: column;
